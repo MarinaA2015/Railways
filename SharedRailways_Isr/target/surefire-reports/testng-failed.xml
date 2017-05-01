@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Tests]">
+  <test name="Test1(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.panel.LoginMarinaTest">
+        <methods>
+          <include name="negativeLoginTest"/>
+          <include name="initPageObjects"/>
+          <include name="initWebDriver"/>
+          <include name="initTestSuite"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.panel.LoginMarinaTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Tests] -->

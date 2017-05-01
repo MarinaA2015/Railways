@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="6" total="9" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Tests" duration-ms="19414" started-at="2017-03-26T08:38:28Z" finished-at="2017-03-26T08:38:47Z">
+    <groups>
+      <group name="regression">
+        <method signature="CompaniesMarinaTest.positiveCompaniesPageLoading()[pri:0, instance:com.panel.CompaniesMarinaTest@4520ebad]" name="positiveCompaniesPageLoading" class="com.panel.CompaniesMarinaTest"/>
+        <method signature="LoginMarinaTest.negativeLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.panel.LoginMarinaTest@7f9a81e8]" name="negativeLoginTest" class="com.panel.LoginMarinaTest"/>
+        <method signature="LoginMarinaTest.positiveAdminLoginTest()[pri:0, instance:com.panel.LoginMarinaTest@7f9a81e8]" name="positiveAdminLoginTest" class="com.panel.LoginMarinaTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="CompaniesMarinaTest.positiveCompaniesPageLoading()[pri:0, instance:com.panel.CompaniesMarinaTest@4520ebad]" name="positiveCompaniesPageLoading" class="com.panel.CompaniesMarinaTest"/>
+        <method signature="LoginMarinaTest.negativeLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.panel.LoginMarinaTest@7f9a81e8]" name="negativeLoginTest" class="com.panel.LoginMarinaTest"/>
+        <method signature="LoginMarinaTest.positiveAdminLoginTest()[pri:0, instance:com.panel.LoginMarinaTest@7f9a81e8]" name="positiveAdminLoginTest" class="com.panel.LoginMarinaTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test1" duration-ms="19414" started-at="2017-03-26T08:38:28Z" finished-at="2017-03-26T08:38:47Z">
+      <class name="com.panel.LoginMarinaTest">
+        <test-method status="PASS" signature="initTestSuite()[pri:0, instance:com.panel.LoginMarinaTest@7f9a81e8]" name="initTestSuite" is-config="true" duration-ms="20" started-at="2017-03-26T11:38:28Z" finished-at="2017-03-26T11:38:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestSuite -->
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:com.panel.LoginMarinaTest@7f9a81e8]" name="initWebDriver" is-config="true" duration-ms="4943" started-at="2017-03-26T11:38:28Z" finished-at="2017-03-26T11:38:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="FAIL" signature="negativeLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.panel.LoginMarinaTest@7f9a81e8]" name="negativeLoginTest" duration-ms="0" started-at="2017-03-26T11:38:33Z" data-provider="invalidLogin" finished-at="2017-03-26T11:38:33Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method public void com.panel.LoginMarinaTest.negativeLoginTest(java.lang.String,java.lang.String) requires a @DataProvider named : invalidLogin in class com.panel.DataProviders]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method public void com.panel.LoginMarinaTest.negativeLoginTest(java.lang.String,java.lang.String) requires a @DataProvider named : invalidLogin in class com.panel.DataProviders
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:336)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:498)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTest -->
+        <test-method status="PASS" signature="initPageObjects()[pri:0, instance:com.panel.LoginMarinaTest@7f9a81e8]" name="initPageObjects" is-config="true" duration-ms="4518" started-at="2017-03-26T11:38:33Z" finished-at="2017-03-26T11:38:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method status="PASS" signature="positiveAdminLoginTest()[pri:0, instance:com.panel.LoginMarinaTest@7f9a81e8]" name="positiveAdminLoginTest" duration-ms="6962" started-at="2017-03-26T11:38:37Z" finished-at="2017-03-26T11:38:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveAdminLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.panel.LoginMarinaTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="1474" started-at="2017-03-26T11:38:47Z" finished-at="2017-03-26T11:38:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.panel.LoginMarinaTest -->
+      <class name="com.panel.CompaniesMarinaTest">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:com.panel.CompaniesMarinaTest@4520ebad]" name="initWebDriver" is-config="true" duration-ms="23" started-at="2017-03-26T11:38:44Z" finished-at="2017-03-26T11:38:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="initPageObjects()[pri:0, instance:com.panel.CompaniesMarinaTest@4520ebad]" name="initPageObjects" is-config="true" duration-ms="2680" started-at="2017-03-26T11:38:44Z" finished-at="2017-03-26T11:38:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method status="PASS" signature="positiveCompaniesPageLoading()[pri:0, instance:com.panel.CompaniesMarinaTest@4520ebad]" name="positiveCompaniesPageLoading" duration-ms="252" started-at="2017-03-26T11:38:47Z" finished-at="2017-03-26T11:38:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveCompaniesPageLoading -->
+      </class> <!-- com.panel.CompaniesMarinaTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Tests -->
+</testng-results>
