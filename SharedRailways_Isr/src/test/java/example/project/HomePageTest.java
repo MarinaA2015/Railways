@@ -121,11 +121,26 @@ public class HomePageTest extends TestNgTestBase {
     @Test(groups = "regression")
     public void negativeSearchTrainsOneWayTicket04() {
         Log.info("----Test: negativeSearchTrainsOneWayTicket02 - origin and destination stations are the same ");
+        homePage.choseOriginStation("Sderot")
+                .choseDestinationStation("Sderot")
+                .fillDateField(1)
+                .clickOnSearchButton();
+        searchTrainsExceptionPage.waitForSearchTrainsExceptionIsLoadedTime50();
+        Assert.assertTrue(searchTrainsExceptionPage.isOnSearchTrainsExceptionPage()
+                &&searchTrainsExceptionPage.isErrorSummaryCorrect(1), "Not passed. Some verificatios are not passed.");
     }
 
     @Test(groups = "regression")
     public void negativeSearchTrainsOneWayTicket05() {
         Log.info("----Test: negativeSearchTrainsOneWayTicket02 - date of oneWayTicket expired ");
+        homePage.choseOriginStation("Haifa-Bat Galim")
+                .choseDestinationStation("Hertsliya")
+                .fillDateField(-10)
+                .clickOnSearchButton();
+        searchTrainsExceptionPage.waitForSearchTrainsExceptionIsLoadedTime50();
+        Assert.assertTrue(searchTrainsExceptionPage.isOnSearchTrainsExceptionPage()
+                &&searchTrainsExceptionPage.isErrorSummaryCorrect(1)
+                &&searchTrainsExceptionPage.isErrorN1Correct("The date selected has passed"),"Not passed. Some verificatios are not passed.");
     }
 
 
