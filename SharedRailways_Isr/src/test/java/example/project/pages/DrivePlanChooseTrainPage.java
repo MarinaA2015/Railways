@@ -29,6 +29,15 @@ public class DrivePlanChooseTrainPage extends Page {
     @FindBy(id = "stationTab_2")
     WebElement chooseStationLabel;
 
+    @FindBy(xpath = "//*[@id='2']/td[2]")
+    WebElement secondTrainInTheTable;
+
+    @FindBy(xpath = "//*[@id='3']/td[2]")
+    WebElement thirdTrainInTheTable;
+
+    @FindBy(xpath = "//*[@id='A1']/span[contains(text(),'Next Step')]")
+    WebElement nextStepButton;
+
     public DrivePlanChooseTrainPage(WebDriver driver){
         super(driver);
         PageFactory.initElements(driver, this);
@@ -41,10 +50,41 @@ public class DrivePlanChooseTrainPage extends Page {
         waitUntilIsLoadedCustomTime(oneWayDate, 50);
         return this;
     }
+
+    public DrivePlanChooseTrainPage moveMouthCursorOverFirstTrainInTable(){
+        Log.info("Mooving of the mouse cursor on the first train in the table");
+        moveMouseOverElement(secondTrainInTheTable);
+        //------wait(???)
+        try {
+            wait(10);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return this;
+    }
+
+    public DrivePlanChooseTrainPage clickOnSecondTrainInTheTable(){
+        Log.info("Clicking on the first train in the table");
+        clickElement(secondTrainInTheTable);
+        return this;
+    }
+
+    public DrivePlanChooseTrainPage clickOnThirdTrainInTheTable(){
+        Log.info("Clicking on the first train in the table");
+        clickElement(thirdTrainInTheTable);
+        return this;
+    }
+
+    public DrivePlanChooseTrainPage clickOnNxtStepButton(){
+        Log.info("Clicking on the Next Step button");
+        clickElement(nextStepButton);
+        return this;
+    }
+
     //Verifications
     public boolean isOnDrivePlanChooseTrain (){
         Log.info("Is Drive Plan - Choose Train page");
-        return this.exists(chooseStationLabel);
+        return (this.exists(chooseStationLabel)&&this.exists(nextStepButton));
     }
     public boolean isOneWayTicket(){
         boolean flag = this.exists(oneWayLabel)&&oneWayLabel.getText().contains("One way");
@@ -70,5 +110,8 @@ public class DrivePlanChooseTrainPage extends Page {
         Log.info("Verification - is destintion station correct: "+flag);
         return flag;
     }
+
+
+
 
 }

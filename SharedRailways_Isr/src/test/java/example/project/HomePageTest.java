@@ -1,6 +1,7 @@
 package example.project;
 
 import example.project.pages.DrivePlanChooseTrainPage;
+import example.project.pages.DrivePlanPricePage;
 import example.project.pages.HomePage;
 import example.project.pages.SearchTrainsExceptionPage;
 import org.apache.log4j.Logger;
@@ -10,11 +11,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import ru.stqa.selenium.factory.WebDriverPool;
-
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
 
 //import java.time.LocalDate;
 
@@ -30,6 +26,7 @@ public class HomePageTest extends TestNgTestBase {
     private HomePage homePage;
     private DrivePlanChooseTrainPage drivePlanChooseTrainPage;
     private SearchTrainsExceptionPage searchTrainsExceptionPage;
+    private DrivePlanPricePage drivePlanPricePage;
    // LocalDate currentDate = LocalDate.now();
 
 
@@ -40,12 +37,9 @@ public class HomePageTest extends TestNgTestBase {
         homePage = PageFactory.initElements(driver, HomePage.class);
         drivePlanChooseTrainPage = PageFactory.initElements(driver, DrivePlanChooseTrainPage.class);
         searchTrainsExceptionPage = PageFactory.initElements(driver, SearchTrainsExceptionPage.class);
+        drivePlanPricePage = PageFactory.initElements(driver,DrivePlanPricePage.class);
         driver.get(URL_LINK);
         homePage.waitForHomePageIsLoadedTime50();
-
-        //--------------date------------
-        //System.out.println(DateUtil.currentDatePlusDays(1));
-       // System.out.println(DateUtil.currentDatePlusDays(-1));
 
     }
 
@@ -68,7 +62,7 @@ public class HomePageTest extends TestNgTestBase {
         int plusDays = Integer.parseInt(numberDays);
         System.out.println(plusDays+1);
         Log.info("----Test: positiveSearchTrainsOneWayTicket: "+originStation+", "+destinationStation+", "+checkBox+", "+plusDays+", "+time);
-        //--!!!!!To add correct data to the test http://stackoverflow.com/questions/428918/how-can-i-increment-a-date-by-one-day-in-java
+
         homePage.choseOriginStation(originStation)
                 .choseDestinationStation(destinationStation)
                 .fillDateField(plusDays)
@@ -142,6 +136,8 @@ public class HomePageTest extends TestNgTestBase {
                 &&searchTrainsExceptionPage.isErrorSummaryCorrect(1)
                 &&searchTrainsExceptionPage.isErrorN1Correct("The date selected has passed"),"Not passed. Some verificatios are not passed.");
     }
+
+
 
 
 }
