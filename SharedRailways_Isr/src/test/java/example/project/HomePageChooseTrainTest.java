@@ -5,6 +5,7 @@ import example.project.pages.DrivePlanPricePage;
 import example.project.pages.HomePage;
 import example.project.pages.SearchTrainsExceptionPage;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
@@ -12,12 +13,15 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import ru.stqa.selenium.factory.WebDriverPool;
 
+import java.util.List;
+
 //import java.time.LocalDate;
 
 /**
  * Created by Inka on 28-Apr-17.
  */
 public class HomePageChooseTrainTest extends TestNgTestBase {
+    private static final Integer MAXIMUM_IN_LIST = 6;
     private static Logger Log = Logger.getLogger(LogLog4j.class.getName());
     private static final String URL_LINK =
             "http://www1.rail.co.il/EN/Pages/Homepage.aspx";
@@ -71,13 +75,49 @@ public class HomePageChooseTrainTest extends TestNgTestBase {
                 .choseDepartureTime(time)
                 .clickOnSearchButton();
         drivePlanChooseTrainPage.waitForDrivePlanChooseTrainIsLoadedTime50()
+                //.findAndWaitAllTrains(MAXIMUM_IN_LIST)
                 //.moveMouthCursorOverFirstTrainInTable()
-                .clickOnNxtStepButton();
+                .clickOnNextStepButton();
         searchTrainsExceptionPage.waitForSearchTrainsExceptionIsLoadedTime50();
         Assert.assertTrue(searchTrainsExceptionPage.isOnSearchTrainsExceptionPage()
                 &&searchTrainsExceptionPage.isErrorSummaryCorrect(1),"Not passed. Some verificatios are not passed.");
 
 
+    }
+    //Choosing and clicking on each train in the list and verification that the system displays next screen correctly
+    @Test(groups = "regression")
+    public void positiveSearchTrainsOneWayTicket_ChooseEachTrain() {
+        List<WebElement> listOfTrains;
+        Log.info("----Test: positiveSearchTrainsOneWayTicket_ChooseEachTrain");
+        homePage.choseOriginStation(originStation)
+                .choseDestinationStation(destinationStation)
+                .fillDateField(plusDays)
+                .clickDepartureOrArrivalCheckBox(checkBox)
+                .choseDepartureTime(time)
+                .clickOnSearchButton();
+        drivePlanChooseTrainPage.waitForDrivePlanChooseTrainIsLoadedTime50()
+                               // .findAllTrains();
+                                .findAllTrains(MAXIMUM_IN_LIST);
+        List <WebElement> trains = drivePlanChooseTrainPage.getListOfTrains();
+        Log.info("trains.size: "+trains.size());
+        int numberOfTrain=0;
+        Boolean flag = true;
+        if (trains.size()==0) Log.info("List of trains is empty");
+        for (WebElement element: trains){
+            numberOfTrain++;
+
+           drivePlanChooseTrainPage.chooseTrain(element)
+                                    .clickOnNextStepButton();
+
+           drivePlanPricePage.waitForDrivePlanPriceIsLoadedTime50();
+
+           if (!drivePlanPricePage.isOnDrivePlanPricePage()) flag=false;
+           Log.info(flag);
+
+           drivePlanPricePage.clickOnPreviousStepButton();
+           drivePlanChooseTrainPage.waitForDrivePlanChooseTrainIsLoadedTime50();
+        }
+        Assert.assertTrue(flag&&(numberOfTrain==trains.size()));
     }
 
     @Test(groups = {"smoke", "regression"})
@@ -93,10 +133,14 @@ public class HomePageChooseTrainTest extends TestNgTestBase {
                 .clickOnSearchButton();
         drivePlanChooseTrainPage.waitForDrivePlanChooseTrainIsLoadedTime50()
                 //.moveMouthCursorOverFirstTrainInTable()
-                .clickOnSecondTrainInTheTable()
-                .clickOnThirdTrainInTheTable()
-                .clickOnNxtStepButton();
+                //.clickOnSecondTrainInTheTable()
+                //.clickOnThirdTrainInTheTable()
+                .findAllTrains(MAXIMUM_IN_LIST)
+                .chooseAnyTrainFromTheList()
+                .clickOnNextStepButton();
         drivePlanPricePage.waitForDrivePlanPriceIsLoadedTime50();
+                            //.clickOnPreviousStepButton();
+        //drivePlanChooseTrainPage.waitForDrivePlanChooseTrainIsLoadedTime50();
         Assert.assertTrue(drivePlanPricePage.isOnDrivePlanPricePage());
 
 

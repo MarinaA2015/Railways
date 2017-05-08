@@ -882,3 +882,509 @@
 2017-05-01 10:37:12 INFO  LogLog4j:54 - Is on search trains exception verifiction: true
 2017-05-01 10:37:12 INFO  LogLog4j:60 - Error summary contains 1: true
 2017-05-01 10:37:12 INFO  LogLog4j:66 - Error N1 in the list contins destination: true
+2017-05-01 15:31:46 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-01 15:31:47 INFO  LogLog4j:101 - ----Test: negativeSearchTrainsOneWayTicket02 - origin is empty 
+2017-05-01 15:31:47 INFO  LogLog4j:74 - Choosing Destination Station: Netanya
+2017-05-01 15:31:48 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-01 15:31:48 INFO  LogLog4j:40 - Waiting for search trains exception is loaded (time 50)
+2017-05-01 15:31:49 INFO  LogLog4j:54 - Is on search trains exception verifiction: true
+2017-05-01 15:31:49 INFO  LogLog4j:60 - Error summary contains 1: true
+2017-05-01 15:31:49 INFO  LogLog4j:66 - Error N1 in the list contins origin: true
+2017-05-02 09:45:31 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-02 09:45:32 INFO  LogLog4j:89 - ----Test: negativeSearchTrainsOneWayTicket01 - origin and destination are empty 
+2017-05-02 09:45:32 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-02 09:45:32 INFO  LogLog4j:40 - Waiting for search trains exception is loaded (time 50)
+2017-05-02 09:45:32 INFO  LogLog4j:54 - Is on search trains exception verifiction: true
+2017-05-02 09:45:32 INFO  LogLog4j:60 - Error summary contains 2: true
+2017-05-02 09:45:32 INFO  LogLog4j:66 - Error N1 in the list contins origin: true
+2017-05-02 09:45:33 INFO  LogLog4j:72 - Error N2 in the list contins destination: true
+2017-05-02 09:45:39 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-02 09:45:39 INFO  LogLog4j:101 - ----Test: negativeSearchTrainsOneWayTicket02 - origin is empty 
+2017-05-02 09:45:39 INFO  LogLog4j:74 - Choosing Destination Station: Netanya
+2017-05-02 09:45:40 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-02 09:45:40 INFO  LogLog4j:40 - Waiting for search trains exception is loaded (time 50)
+2017-05-02 09:45:41 INFO  LogLog4j:54 - Is on search trains exception verifiction: true
+2017-05-02 09:45:41 INFO  LogLog4j:60 - Error summary contains 1: true
+2017-05-02 09:45:41 INFO  LogLog4j:66 - Error N1 in the list contins origin: true
+2017-05-02 09:45:50 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-02 09:45:50 INFO  LogLog4j:112 - ----Test: negativeSearchTrainsOneWayTicket03 - destintion is empty 
+2017-05-02 09:45:50 INFO  LogLog4j:68 - Choosing Origin Station: Ako
+2017-05-02 09:45:51 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-02 09:45:51 INFO  LogLog4j:40 - Waiting for search trains exception is loaded (time 50)
+2017-05-02 09:45:51 INFO  LogLog4j:54 - Is on search trains exception verifiction: true
+2017-05-02 09:45:51 INFO  LogLog4j:60 - Error summary contains 1: true
+2017-05-02 09:45:51 INFO  LogLog4j:66 - Error N1 in the list contins destination: true
+2017-05-02 09:46:02 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-02 09:46:02 INFO  LogLog4j:123 - ----Test: negativeSearchTrainsOneWayTicket02 - origin and destination stations are the same 
+2017-05-02 09:46:02 INFO  LogLog4j:68 - Choosing Origin Station: Sderot
+2017-05-02 09:46:03 INFO  LogLog4j:74 - Choosing Destination Station: Sderot
+2017-05-02 09:46:04 INFO  LogLog4j:80 - Filling data field for one way ticket
+2017-05-02 09:46:05 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-02 09:46:05 INFO  LogLog4j:40 - Waiting for search trains exception is loaded (time 50)
+2017-05-02 09:46:05 INFO  LogLog4j:54 - Is on search trains exception verifiction: true
+2017-05-02 09:46:05 INFO  LogLog4j:60 - Error summary contains 1: true
+2017-05-02 09:46:12 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-02 09:46:12 INFO  LogLog4j:135 - ----Test: negativeSearchTrainsOneWayTicket02 - date of oneWayTicket expired 
+2017-05-02 09:46:12 INFO  LogLog4j:68 - Choosing Origin Station: Haifa-Bat Galim
+2017-05-02 09:46:13 INFO  LogLog4j:74 - Choosing Destination Station: Hertsliya
+2017-05-02 09:46:14 INFO  LogLog4j:80 - Filling data field for one way ticket
+2017-05-02 09:46:15 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-02 09:46:15 INFO  LogLog4j:40 - Waiting for search trains exception is loaded (time 50)
+2017-05-02 09:46:15 INFO  LogLog4j:54 - Is on search trains exception verifiction: true
+2017-05-02 09:46:15 INFO  LogLog4j:60 - Error summary contains 1: true
+2017-05-02 09:46:15 INFO  LogLog4j:66 - Error N1 in the list contins The date selected has passed: true
+2017-05-02 09:46:22 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-02 09:46:22 INFO  LogLog4j:62 - ----Test: positiveApplicationLoadingTest
+2017-05-02 09:46:22 INFO  LogLog4j:117 - Verification: Is on Home Page (originFields, destinationField and SearchButton elements exist)
+2017-05-02 09:46:30 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-02 09:46:30 INFO  LogLog4j:70 - ----Test: positiveSearchTrainsOneWayTicket: AFULA, Ako, A, 0, 20:00
+2017-05-02 09:46:30 INFO  LogLog4j:68 - Choosing Origin Station: AFULA
+2017-05-02 09:46:31 INFO  LogLog4j:74 - Choosing Destination Station: Ako
+2017-05-02 09:46:32 INFO  LogLog4j:80 - Filling data field for one way ticket
+2017-05-02 09:46:32 INFO  LogLog4j:93 - Clicking departure or arrival check box for one way ticket: nothing
+2017-05-02 09:46:32 INFO  LogLog4j:98 - Choosing departure time for one way ticket
+2017-05-02 09:46:33 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-02 09:46:47 INFO  LogLog4j:39 - Waiting for Drive Plan - Choose Train (time 50)
+2017-05-02 09:46:48 INFO  LogLog4j:46 - Is Drive Plan - Choose Train page
+2017-05-02 09:46:49 INFO  LogLog4j:51 - Verification - is one way ticket: true
+2017-05-02 09:46:49 INFO  LogLog4j:64 - Verification - is origin station correct: true
+2017-05-02 09:46:49 INFO  LogLog4j:70 - Verification - is destintion station correct: true
+2017-05-02 09:46:49 INFO  LogLog4j:58 - Verification - is one way date correct: true
+2017-05-02 09:46:57 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-02 09:46:58 INFO  LogLog4j:70 - ----Test: positiveSearchTrainsOneWayTicket: Rehovot (E. Hadar), Netanya, D, 1, 10:00
+2017-05-02 09:46:58 INFO  LogLog4j:68 - Choosing Origin Station: Rehovot (E. Hadar)
+2017-05-02 09:46:59 INFO  LogLog4j:74 - Choosing Destination Station: Netanya
+2017-05-02 09:47:00 INFO  LogLog4j:80 - Filling data field for one way ticket
+2017-05-02 09:47:00 INFO  LogLog4j:93 - Clicking departure or arrival check box for one way ticket: nothing
+2017-05-02 09:47:00 INFO  LogLog4j:98 - Choosing departure time for one way ticket
+2017-05-02 09:47:00 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-02 09:47:12 INFO  LogLog4j:39 - Waiting for Drive Plan - Choose Train (time 50)
+2017-05-02 09:47:13 INFO  LogLog4j:46 - Is Drive Plan - Choose Train page
+2017-05-02 09:47:13 INFO  LogLog4j:51 - Verification - is one way ticket: true
+2017-05-02 09:47:13 INFO  LogLog4j:64 - Verification - is origin station correct: true
+2017-05-02 09:47:14 INFO  LogLog4j:70 - Verification - is destintion station correct: true
+2017-05-02 09:47:14 INFO  LogLog4j:58 - Verification - is one way date correct: true
+2017-05-02 09:47:24 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-02 09:47:24 INFO  LogLog4j:70 - ----Test: positiveSearchTrainsOneWayTicket: Dimona, Lod, N, 2, 17:00
+2017-05-02 09:47:24 INFO  LogLog4j:68 - Choosing Origin Station: Dimona
+2017-05-02 09:47:25 INFO  LogLog4j:74 - Choosing Destination Station: Lod
+2017-05-02 09:47:26 INFO  LogLog4j:80 - Filling data field for one way ticket
+2017-05-02 09:47:27 INFO  LogLog4j:93 - Clicking departure or arrival check box for one way ticket: nothing
+2017-05-02 09:47:27 INFO  LogLog4j:98 - Choosing departure time for one way ticket
+2017-05-02 09:47:27 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-02 09:47:37 INFO  LogLog4j:39 - Waiting for Drive Plan - Choose Train (time 50)
+2017-05-02 09:47:37 INFO  LogLog4j:46 - Is Drive Plan - Choose Train page
+2017-05-02 09:47:38 INFO  LogLog4j:51 - Verification - is one way ticket: true
+2017-05-02 09:47:38 INFO  LogLog4j:64 - Verification - is origin station correct: true
+2017-05-02 09:47:39 INFO  LogLog4j:70 - Verification - is destintion station correct: true
+2017-05-02 09:47:39 INFO  LogLog4j:58 - Verification - is one way date correct: true
+2017-05-03 22:12:38 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-03 22:12:39 INFO  LogLog4j:89 - ----Test: negativeSearchTrainsOneWayTicket01 - origin and destination are empty 
+2017-05-03 22:12:39 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-03 22:12:40 INFO  LogLog4j:40 - Waiting for search trains exception is loaded (time 50)
+2017-05-03 22:12:40 INFO  LogLog4j:54 - Is on search trains exception verifiction: true
+2017-05-03 22:12:40 INFO  LogLog4j:60 - Error summary contains 2: true
+2017-05-03 22:12:40 INFO  LogLog4j:66 - Error N1 in the list contins origin: true
+2017-05-03 22:12:40 INFO  LogLog4j:72 - Error N2 in the list contins destination: true
+2017-05-03 22:12:48 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-03 22:12:48 INFO  LogLog4j:101 - ----Test: negativeSearchTrainsOneWayTicket02 - origin is empty 
+2017-05-03 22:12:48 INFO  LogLog4j:74 - Choosing Destination Station: Netanya
+2017-05-03 22:12:49 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-03 22:12:49 INFO  LogLog4j:40 - Waiting for search trains exception is loaded (time 50)
+2017-05-03 22:12:49 INFO  LogLog4j:54 - Is on search trains exception verifiction: true
+2017-05-03 22:12:49 INFO  LogLog4j:60 - Error summary contains 1: true
+2017-05-03 22:12:49 INFO  LogLog4j:66 - Error N1 in the list contins origin: true
+2017-05-03 22:12:55 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-03 22:12:56 INFO  LogLog4j:112 - ----Test: negativeSearchTrainsOneWayTicket03 - destintion is empty 
+2017-05-03 22:12:56 INFO  LogLog4j:68 - Choosing Origin Station: Ako
+2017-05-03 22:12:57 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-03 22:12:57 INFO  LogLog4j:40 - Waiting for search trains exception is loaded (time 50)
+2017-05-03 22:12:57 INFO  LogLog4j:54 - Is on search trains exception verifiction: true
+2017-05-03 22:12:57 INFO  LogLog4j:60 - Error summary contains 1: true
+2017-05-03 22:12:57 INFO  LogLog4j:66 - Error N1 in the list contins destination: true
+2017-05-03 22:13:04 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-03 22:13:04 INFO  LogLog4j:123 - ----Test: negativeSearchTrainsOneWayTicket02 - origin and destination stations are the same 
+2017-05-03 22:13:04 INFO  LogLog4j:68 - Choosing Origin Station: Sderot
+2017-05-03 22:13:05 INFO  LogLog4j:74 - Choosing Destination Station: Sderot
+2017-05-03 22:13:06 INFO  LogLog4j:80 - Filling data field for one way ticket
+2017-05-03 22:13:06 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-03 22:13:07 INFO  LogLog4j:40 - Waiting for search trains exception is loaded (time 50)
+2017-05-03 22:13:07 INFO  LogLog4j:54 - Is on search trains exception verifiction: true
+2017-05-03 22:13:07 INFO  LogLog4j:60 - Error summary contains 1: true
+2017-05-03 22:13:14 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-03 22:13:15 INFO  LogLog4j:135 - ----Test: negativeSearchTrainsOneWayTicket02 - date of oneWayTicket expired 
+2017-05-03 22:13:15 INFO  LogLog4j:68 - Choosing Origin Station: Haifa-Bat Galim
+2017-05-03 22:13:16 INFO  LogLog4j:74 - Choosing Destination Station: Hertsliya
+2017-05-03 22:13:17 INFO  LogLog4j:80 - Filling data field for one way ticket
+2017-05-03 22:13:17 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-03 22:13:17 INFO  LogLog4j:40 - Waiting for search trains exception is loaded (time 50)
+2017-05-03 22:13:18 INFO  LogLog4j:54 - Is on search trains exception verifiction: true
+2017-05-03 22:13:18 INFO  LogLog4j:60 - Error summary contains 1: true
+2017-05-03 22:13:18 INFO  LogLog4j:66 - Error N1 in the list contins The date selected has passed: true
+2017-05-03 22:13:26 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-03 22:13:26 INFO  LogLog4j:62 - ----Test: positiveApplicationLoadingTest
+2017-05-03 22:13:26 INFO  LogLog4j:117 - Verification: Is on Home Page (originFields, destinationField and SearchButton elements exist)
+2017-05-03 22:13:34 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-03 22:13:34 INFO  LogLog4j:70 - ----Test: positiveSearchTrainsOneWayTicket: AFULA, Ako, A, 0, 20:00
+2017-05-03 22:13:34 INFO  LogLog4j:68 - Choosing Origin Station: AFULA
+2017-05-03 22:13:35 INFO  LogLog4j:74 - Choosing Destination Station: Ako
+2017-05-03 22:13:36 INFO  LogLog4j:80 - Filling data field for one way ticket
+2017-05-03 22:13:37 INFO  LogLog4j:93 - Clicking departure or arrival check box for one way ticket: nothing
+2017-05-03 22:13:37 INFO  LogLog4j:98 - Choosing departure time for one way ticket
+2017-05-03 22:13:37 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-03 22:13:49 INFO  LogLog4j:39 - Waiting for Drive Plan - Choose Train (time 50)
+2017-05-03 22:13:50 INFO  LogLog4j:46 - Is Drive Plan - Choose Train page
+2017-05-03 22:13:51 INFO  LogLog4j:51 - Verification - is one way ticket: true
+2017-05-03 22:13:51 INFO  LogLog4j:64 - Verification - is origin station correct: true
+2017-05-03 22:13:51 INFO  LogLog4j:70 - Verification - is destintion station correct: true
+2017-05-03 22:13:51 INFO  LogLog4j:58 - Verification - is one way date correct: true
+2017-05-03 22:13:58 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-03 22:13:59 INFO  LogLog4j:70 - ----Test: positiveSearchTrainsOneWayTicket: Rehovot (E. Hadar), Netanya, D, 1, 10:00
+2017-05-03 22:13:59 INFO  LogLog4j:68 - Choosing Origin Station: Rehovot (E. Hadar)
+2017-05-03 22:14:00 INFO  LogLog4j:74 - Choosing Destination Station: Netanya
+2017-05-03 22:14:00 INFO  LogLog4j:80 - Filling data field for one way ticket
+2017-05-03 22:14:01 INFO  LogLog4j:93 - Clicking departure or arrival check box for one way ticket: nothing
+2017-05-03 22:14:01 INFO  LogLog4j:98 - Choosing departure time for one way ticket
+2017-05-03 22:14:01 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-03 22:14:14 INFO  LogLog4j:39 - Waiting for Drive Plan - Choose Train (time 50)
+2017-05-03 22:14:15 INFO  LogLog4j:46 - Is Drive Plan - Choose Train page
+2017-05-03 22:14:15 INFO  LogLog4j:51 - Verification - is one way ticket: true
+2017-05-03 22:14:16 INFO  LogLog4j:64 - Verification - is origin station correct: true
+2017-05-03 22:14:16 INFO  LogLog4j:70 - Verification - is destintion station correct: true
+2017-05-03 22:14:16 INFO  LogLog4j:58 - Verification - is one way date correct: true
+2017-05-03 22:14:23 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-03 22:14:24 INFO  LogLog4j:70 - ----Test: positiveSearchTrainsOneWayTicket: Dimona, Lod, N, 2, 17:00
+2017-05-03 22:14:24 INFO  LogLog4j:68 - Choosing Origin Station: Dimona
+2017-05-03 22:14:24 INFO  LogLog4j:74 - Choosing Destination Station: Lod
+2017-05-03 22:14:25 INFO  LogLog4j:80 - Filling data field for one way ticket
+2017-05-03 22:14:25 INFO  LogLog4j:93 - Clicking departure or arrival check box for one way ticket: nothing
+2017-05-03 22:14:25 INFO  LogLog4j:98 - Choosing departure time for one way ticket
+2017-05-03 22:14:26 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-03 22:14:39 INFO  LogLog4j:39 - Waiting for Drive Plan - Choose Train (time 50)
+2017-05-03 22:14:40 INFO  LogLog4j:46 - Is Drive Plan - Choose Train page
+2017-05-03 22:14:41 INFO  LogLog4j:51 - Verification - is one way ticket: true
+2017-05-03 22:14:41 INFO  LogLog4j:64 - Verification - is origin station correct: true
+2017-05-03 22:14:41 INFO  LogLog4j:70 - Verification - is destintion station correct: true
+2017-05-03 22:14:41 INFO  LogLog4j:58 - Verification - is one way date correct: true
+2017-05-03 22:28:30 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-03 22:28:31 INFO  LogLog4j:62 - ----Test: positiveApplicationLoadingTest
+2017-05-03 22:28:31 INFO  LogLog4j:117 - Verification: Is on Home Page (originFields, destinationField and SearchButton elements exist)
+2017-05-03 22:28:39 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-03 22:28:39 INFO  LogLog4j:70 - ----Test: positiveSearchTrainsOneWayTicket: AFULA, Ako, A, 0, 20:00
+2017-05-03 22:28:39 INFO  LogLog4j:68 - Choosing Origin Station: AFULA
+2017-05-03 22:28:40 INFO  LogLog4j:74 - Choosing Destination Station: Ako
+2017-05-03 22:28:41 INFO  LogLog4j:80 - Filling data field for one way ticket
+2017-05-03 22:28:42 INFO  LogLog4j:93 - Clicking departure or arrival check box for one way ticket: nothing
+2017-05-03 22:28:42 INFO  LogLog4j:98 - Choosing departure time for one way ticket
+2017-05-03 22:28:42 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-03 22:28:56 INFO  LogLog4j:39 - Waiting for Drive Plan - Choose Train (time 50)
+2017-05-03 22:28:56 INFO  LogLog4j:46 - Is Drive Plan - Choose Train page
+2017-05-03 22:28:57 INFO  LogLog4j:51 - Verification - is one way ticket: true
+2017-05-03 22:28:57 INFO  LogLog4j:64 - Verification - is origin station correct: true
+2017-05-03 22:28:57 INFO  LogLog4j:70 - Verification - is destintion station correct: true
+2017-05-03 22:28:57 INFO  LogLog4j:58 - Verification - is one way date correct: true
+2017-05-03 22:29:04 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-03 22:29:05 INFO  LogLog4j:70 - ----Test: positiveSearchTrainsOneWayTicket: Rehovot (E. Hadar), Netanya, D, 1, 10:00
+2017-05-03 22:29:05 INFO  LogLog4j:68 - Choosing Origin Station: Rehovot (E. Hadar)
+2017-05-03 22:29:05 INFO  LogLog4j:74 - Choosing Destination Station: Netanya
+2017-05-03 22:29:06 INFO  LogLog4j:80 - Filling data field for one way ticket
+2017-05-03 22:29:07 INFO  LogLog4j:93 - Clicking departure or arrival check box for one way ticket: nothing
+2017-05-03 22:29:07 INFO  LogLog4j:98 - Choosing departure time for one way ticket
+2017-05-03 22:29:07 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-03 22:29:21 INFO  LogLog4j:39 - Waiting for Drive Plan - Choose Train (time 50)
+2017-05-03 22:29:22 INFO  LogLog4j:46 - Is Drive Plan - Choose Train page
+2017-05-03 22:29:23 INFO  LogLog4j:51 - Verification - is one way ticket: true
+2017-05-03 22:29:23 INFO  LogLog4j:64 - Verification - is origin station correct: true
+2017-05-03 22:29:23 INFO  LogLog4j:70 - Verification - is destintion station correct: true
+2017-05-03 22:29:24 INFO  LogLog4j:58 - Verification - is one way date correct: false
+2017-05-03 22:29:30 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-03 22:29:31 INFO  LogLog4j:70 - ----Test: positiveSearchTrainsOneWayTicket: Dimona, Lod, N, 2, 17:00
+2017-05-03 22:29:31 INFO  LogLog4j:68 - Choosing Origin Station: Dimona
+2017-05-03 22:29:32 INFO  LogLog4j:74 - Choosing Destination Station: Lod
+2017-05-03 22:29:32 INFO  LogLog4j:80 - Filling data field for one way ticket
+2017-05-03 22:29:33 INFO  LogLog4j:93 - Clicking departure or arrival check box for one way ticket: nothing
+2017-05-03 22:29:33 INFO  LogLog4j:98 - Choosing departure time for one way ticket
+2017-05-03 22:29:33 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-03 22:29:44 INFO  LogLog4j:39 - Waiting for Drive Plan - Choose Train (time 50)
+2017-05-03 22:29:44 INFO  LogLog4j:46 - Is Drive Plan - Choose Train page
+2017-05-03 22:29:45 INFO  LogLog4j:51 - Verification - is one way ticket: true
+2017-05-03 22:29:45 INFO  LogLog4j:64 - Verification - is origin station correct: true
+2017-05-03 22:29:46 INFO  LogLog4j:70 - Verification - is destintion station correct: true
+2017-05-03 22:29:46 INFO  LogLog4j:58 - Verification - is one way date correct: false
+2017-05-05 15:18:53 INFO  LogLog4j:44 - Before Method for HomePageChooseTrainTest. Data for train choosing: Lod, Ashkelon, A, 1, 12:00
+2017-05-05 15:19:01 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-05 15:19:02 INFO  LogLog4j:65 - ----Test: negativeSearchTrainsOneWayTicket_ChooseTrain - train wasn't chosen 
+2017-05-05 15:19:02 INFO  LogLog4j:68 - Choosing Origin Station: Lod
+2017-05-05 15:19:03 INFO  LogLog4j:74 - Choosing Destination Station: Ashkelon
+2017-05-05 15:19:03 INFO  LogLog4j:80 - Filling data field for one way ticket
+2017-05-05 15:19:04 INFO  LogLog4j:90 - Clicking departure or arrival check box for one way ticket: arrival
+2017-05-05 15:19:04 INFO  LogLog4j:98 - Choosing departure time for one way ticket
+2017-05-05 15:19:05 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-05 15:19:15 INFO  LogLog4j:48 - Waiting for Drive Plan - Choose Train (time 50)
+2017-05-05 15:19:15 INFO  LogLog4j:79 - Clicking on the Next Step button
+2017-05-05 15:19:16 INFO  LogLog4j:40 - Waiting for search trains exception is loaded (time 50)
+2017-05-05 15:19:16 INFO  LogLog4j:54 - Is on search trains exception verifiction: true
+2017-05-05 15:19:16 INFO  LogLog4j:60 - Error summary contains 1: true
+2017-05-05 15:19:16 INFO  LogLog4j:44 - Before Method for HomePageChooseTrainTest. Data for train choosing: Lod, Ashkelon, A, 1, 12:00
+2017-05-05 15:19:23 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-05 15:19:24 INFO  LogLog4j:86 - ----Test: positiveSearchTrainsOneWayTicket_ChooseTrain
+2017-05-05 15:19:24 INFO  LogLog4j:68 - Choosing Origin Station: Lod
+2017-05-05 15:19:24 INFO  LogLog4j:74 - Choosing Destination Station: Ashkelon
+2017-05-05 15:19:25 INFO  LogLog4j:80 - Filling data field for one way ticket
+2017-05-05 15:19:26 INFO  LogLog4j:90 - Clicking departure or arrival check box for one way ticket: arrival
+2017-05-05 15:19:26 INFO  LogLog4j:98 - Choosing departure time for one way ticket
+2017-05-05 15:19:27 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-05 15:19:36 INFO  LogLog4j:48 - Waiting for Drive Plan - Choose Train (time 50)
+2017-05-05 15:19:37 INFO  LogLog4j:67 - Clicking on the first train in the table
+2017-05-05 15:19:37 INFO  LogLog4j:73 - Clicking on the first train in the table
+2017-05-05 15:19:38 INFO  LogLog4j:79 - Clicking on the Next Step button
+2017-05-05 15:19:39 INFO  LogLog4j:57 - Is Drive Plan - Price page
+2017-05-05 15:19:46 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-05 15:19:47 INFO  LogLog4j:83 - ----Test: negativeSearchTrainsOneWayTicket01 - origin and destination are empty 
+2017-05-05 15:19:47 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-05 15:19:47 INFO  LogLog4j:40 - Waiting for search trains exception is loaded (time 50)
+2017-05-05 15:19:47 INFO  LogLog4j:54 - Is on search trains exception verifiction: true
+2017-05-05 15:19:47 INFO  LogLog4j:60 - Error summary contains 2: true
+2017-05-05 15:19:47 INFO  LogLog4j:66 - Error N1 in the list contins origin: true
+2017-05-05 15:19:48 INFO  LogLog4j:72 - Error N2 in the list contins destination: true
+2017-05-05 15:19:54 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-05 15:19:55 INFO  LogLog4j:95 - ----Test: negativeSearchTrainsOneWayTicket02 - origin is empty 
+2017-05-05 15:19:55 INFO  LogLog4j:74 - Choosing Destination Station: Netanya
+2017-05-05 15:19:55 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-05 15:19:56 INFO  LogLog4j:40 - Waiting for search trains exception is loaded (time 50)
+2017-05-05 15:19:56 INFO  LogLog4j:54 - Is on search trains exception verifiction: true
+2017-05-05 15:19:56 INFO  LogLog4j:60 - Error summary contains 1: true
+2017-05-05 15:19:56 INFO  LogLog4j:66 - Error N1 in the list contins origin: true
+2017-05-05 15:20:04 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-05 15:20:04 INFO  LogLog4j:106 - ----Test: negativeSearchTrainsOneWayTicket03 - destintion is empty 
+2017-05-05 15:20:04 INFO  LogLog4j:68 - Choosing Origin Station: Ako
+2017-05-05 15:20:05 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-05 15:20:05 INFO  LogLog4j:40 - Waiting for search trains exception is loaded (time 50)
+2017-05-05 15:20:05 INFO  LogLog4j:54 - Is on search trains exception verifiction: true
+2017-05-05 15:20:05 INFO  LogLog4j:60 - Error summary contains 1: true
+2017-05-05 15:20:05 INFO  LogLog4j:66 - Error N1 in the list contins destination: true
+2017-05-05 15:20:13 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-05 15:20:13 INFO  LogLog4j:117 - ----Test: negativeSearchTrainsOneWayTicket02 - origin and destination stations are the same 
+2017-05-05 15:20:13 INFO  LogLog4j:68 - Choosing Origin Station: Sderot
+2017-05-05 15:20:14 INFO  LogLog4j:74 - Choosing Destination Station: Sderot
+2017-05-05 15:20:15 INFO  LogLog4j:80 - Filling data field for one way ticket
+2017-05-05 15:20:15 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-05 15:20:16 INFO  LogLog4j:40 - Waiting for search trains exception is loaded (time 50)
+2017-05-05 15:20:16 INFO  LogLog4j:54 - Is on search trains exception verifiction: true
+2017-05-05 15:20:16 INFO  LogLog4j:60 - Error summary contains 1: true
+2017-05-05 15:20:22 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-05 15:20:23 INFO  LogLog4j:129 - ----Test: negativeSearchTrainsOneWayTicket02 - date of oneWayTicket expired 
+2017-05-05 15:20:23 INFO  LogLog4j:68 - Choosing Origin Station: Haifa-Bat Galim
+2017-05-05 15:20:23 INFO  LogLog4j:74 - Choosing Destination Station: Hertsliya
+2017-05-05 15:20:24 INFO  LogLog4j:80 - Filling data field for one way ticket
+2017-05-05 15:20:25 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-05 15:20:25 INFO  LogLog4j:40 - Waiting for search trains exception is loaded (time 50)
+2017-05-05 15:20:25 INFO  LogLog4j:54 - Is on search trains exception verifiction: true
+2017-05-05 15:20:25 INFO  LogLog4j:60 - Error summary contains 1: true
+2017-05-05 15:20:26 INFO  LogLog4j:66 - Error N1 in the list contins The date selected has passed: true
+2017-05-05 15:20:32 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-05 15:20:33 INFO  LogLog4j:56 - ----Test: positiveApplicationLoadingTest
+2017-05-05 15:20:33 INFO  LogLog4j:117 - Verification: Is on Home Page (originFields, destinationField and SearchButton elements exist)
+2017-05-05 15:20:40 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-05 15:20:41 INFO  LogLog4j:64 - ----Test: positiveSearchTrainsOneWayTicket: AFULA, Ako, A, 0, 20:00
+2017-05-05 15:20:41 INFO  LogLog4j:68 - Choosing Origin Station: AFULA
+2017-05-05 15:20:42 INFO  LogLog4j:74 - Choosing Destination Station: Ako
+2017-05-05 15:20:42 INFO  LogLog4j:80 - Filling data field for one way ticket
+2017-05-05 15:20:43 INFO  LogLog4j:93 - Clicking departure or arrival check box for one way ticket: nothing
+2017-05-05 15:20:43 INFO  LogLog4j:98 - Choosing departure time for one way ticket
+2017-05-05 15:20:43 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-05 15:20:53 INFO  LogLog4j:48 - Waiting for Drive Plan - Choose Train (time 50)
+2017-05-05 15:20:54 INFO  LogLog4j:86 - Is Drive Plan - Choose Train page
+2017-05-05 15:20:54 INFO  LogLog4j:91 - Verification - is one way ticket: true
+2017-05-05 15:20:54 INFO  LogLog4j:104 - Verification - is origin station correct: true
+2017-05-05 15:20:55 INFO  LogLog4j:110 - Verification - is destintion station correct: true
+2017-05-05 15:20:55 INFO  LogLog4j:98 - Verification - is one way date correct: true
+2017-05-05 15:21:01 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-05 15:21:02 INFO  LogLog4j:64 - ----Test: positiveSearchTrainsOneWayTicket: Rehovot (E. Hadar), Netanya, D, 1, 10:00
+2017-05-05 15:21:02 INFO  LogLog4j:68 - Choosing Origin Station: Rehovot (E. Hadar)
+2017-05-05 15:21:03 INFO  LogLog4j:74 - Choosing Destination Station: Netanya
+2017-05-05 15:21:04 INFO  LogLog4j:80 - Filling data field for one way ticket
+2017-05-05 15:21:05 INFO  LogLog4j:93 - Clicking departure or arrival check box for one way ticket: nothing
+2017-05-05 15:21:05 INFO  LogLog4j:98 - Choosing departure time for one way ticket
+2017-05-05 15:21:05 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-05 15:21:15 INFO  LogLog4j:48 - Waiting for Drive Plan - Choose Train (time 50)
+2017-05-05 15:21:15 INFO  LogLog4j:86 - Is Drive Plan - Choose Train page
+2017-05-05 15:21:16 INFO  LogLog4j:91 - Verification - is one way ticket: true
+2017-05-05 15:21:16 INFO  LogLog4j:104 - Verification - is origin station correct: true
+2017-05-05 15:21:17 INFO  LogLog4j:110 - Verification - is destintion station correct: true
+2017-05-05 15:21:17 INFO  LogLog4j:98 - Verification - is one way date correct: true
+2017-05-05 15:21:24 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-05 15:21:24 INFO  LogLog4j:64 - ----Test: positiveSearchTrainsOneWayTicket: Dimona, Lod, N, 2, 17:00
+2017-05-05 15:21:24 INFO  LogLog4j:68 - Choosing Origin Station: Dimona
+2017-05-05 15:21:25 INFO  LogLog4j:74 - Choosing Destination Station: Lod
+2017-05-05 15:21:26 INFO  LogLog4j:80 - Filling data field for one way ticket
+2017-05-05 15:21:26 INFO  LogLog4j:93 - Clicking departure or arrival check box for one way ticket: nothing
+2017-05-05 15:21:26 INFO  LogLog4j:98 - Choosing departure time for one way ticket
+2017-05-05 15:21:27 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-05 15:21:36 INFO  LogLog4j:48 - Waiting for Drive Plan - Choose Train (time 50)
+2017-05-05 15:21:37 INFO  LogLog4j:86 - Is Drive Plan - Choose Train page
+2017-05-05 15:21:38 INFO  LogLog4j:91 - Verification - is one way ticket: true
+2017-05-05 15:21:38 INFO  LogLog4j:104 - Verification - is origin station correct: true
+2017-05-05 15:21:38 INFO  LogLog4j:110 - Verification - is destintion station correct: true
+2017-05-05 15:21:39 INFO  LogLog4j:98 - Verification - is one way date correct: true
+2017-05-08 22:21:04 INFO  LogLog4j:48 - Before Method for HomePageChooseTrainTest. Data for train choosing: Lod, Ashkelon, A, 1, 12:00
+2017-05-08 22:21:11 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-08 22:21:12 INFO  LogLog4j:69 - ----Test: negativeSearchTrainsOneWayTicket_ChooseTrain - train wasn't chosen 
+2017-05-08 22:21:12 INFO  LogLog4j:68 - Choosing Origin Station: Lod
+2017-05-08 22:21:13 INFO  LogLog4j:74 - Choosing Destination Station: Ashkelon
+2017-05-08 22:21:13 INFO  LogLog4j:80 - Filling data field for one way ticket
+2017-05-08 22:21:14 INFO  LogLog4j:90 - Clicking departure or arrival check box for one way ticket: arrival
+2017-05-08 22:21:15 INFO  LogLog4j:98 - Choosing departure time for one way ticket
+2017-05-08 22:21:15 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-08 22:21:26 INFO  LogLog4j:62 - Waiting for Drive Plan - Choose Train (time 50)
+2017-05-08 22:21:27 INFO  LogLog4j:102 - Clicking on the Next Step button
+2017-05-08 22:21:27 INFO  LogLog4j:40 - Waiting for search trains exception is loaded (time 50)
+2017-05-08 22:21:27 INFO  LogLog4j:54 - Is on search trains exception verifiction: true
+2017-05-08 22:21:27 INFO  LogLog4j:60 - Error summary contains 1: true
+2017-05-08 22:21:27 INFO  LogLog4j:48 - Before Method for HomePageChooseTrainTest. Data for train choosing: Lod, Ashkelon, A, 1, 12:00
+2017-05-08 22:21:34 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-08 22:21:34 INFO  LogLog4j:91 - ----Test: positiveSearchTrainsOneWayTicket_ChooseEachTrain
+2017-05-08 22:21:34 INFO  LogLog4j:68 - Choosing Origin Station: Lod
+2017-05-08 22:21:35 INFO  LogLog4j:74 - Choosing Destination Station: Ashkelon
+2017-05-08 22:21:36 INFO  LogLog4j:80 - Filling data field for one way ticket
+2017-05-08 22:21:36 INFO  LogLog4j:90 - Clicking departure or arrival check box for one way ticket: arrival
+2017-05-08 22:21:36 INFO  LogLog4j:98 - Choosing departure time for one way ticket
+2017-05-08 22:21:37 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-08 22:21:45 INFO  LogLog4j:62 - Waiting for Drive Plan - Choose Train (time 50)
+2017-05-08 22:21:45 INFO  LogLog4j:112 -  Receiving list of trains
+2017-05-08 22:21:45 INFO  LogLog4j:121 -  The quantity of trains in the list: 5
+2017-05-08 22:21:45 INFO  LogLog4j:102 - trains.size: 5
+2017-05-08 22:21:45 INFO  LogLog4j:127 - Choosing train in the list
+2017-05-08 22:21:46 INFO  LogLog4j:102 - Clicking on the Next Step button
+2017-05-08 22:21:48 INFO  LogLog4j:71 - Is Drive Plan - Price page
+2017-05-08 22:21:49 INFO  LogLog4j:115 - true
+2017-05-08 22:21:49 INFO  LogLog4j:51 - Clicking on Previus Step Button
+2017-05-08 22:21:50 INFO  LogLog4j:62 - Waiting for Drive Plan - Choose Train (time 50)
+2017-05-08 22:21:50 INFO  LogLog4j:127 - Choosing train in the list
+2017-05-08 22:21:50 INFO  LogLog4j:102 - Clicking on the Next Step button
+2017-05-08 22:21:53 INFO  LogLog4j:71 - Is Drive Plan - Price page
+2017-05-08 22:21:54 INFO  LogLog4j:115 - true
+2017-05-08 22:21:54 INFO  LogLog4j:51 - Clicking on Previus Step Button
+2017-05-08 22:21:54 INFO  LogLog4j:62 - Waiting for Drive Plan - Choose Train (time 50)
+2017-05-08 22:21:54 INFO  LogLog4j:127 - Choosing train in the list
+2017-05-08 22:21:55 INFO  LogLog4j:102 - Clicking on the Next Step button
+2017-05-08 22:21:57 INFO  LogLog4j:71 - Is Drive Plan - Price page
+2017-05-08 22:21:58 INFO  LogLog4j:115 - true
+2017-05-08 22:21:58 INFO  LogLog4j:51 - Clicking on Previus Step Button
+2017-05-08 22:21:58 INFO  LogLog4j:62 - Waiting for Drive Plan - Choose Train (time 50)
+2017-05-08 22:21:58 INFO  LogLog4j:127 - Choosing train in the list
+2017-05-08 22:21:58 INFO  LogLog4j:102 - Clicking on the Next Step button
+2017-05-08 22:22:01 INFO  LogLog4j:71 - Is Drive Plan - Price page
+2017-05-08 22:22:02 INFO  LogLog4j:115 - true
+2017-05-08 22:22:02 INFO  LogLog4j:51 - Clicking on Previus Step Button
+2017-05-08 22:22:02 INFO  LogLog4j:62 - Waiting for Drive Plan - Choose Train (time 50)
+2017-05-08 22:22:02 INFO  LogLog4j:127 - Choosing train in the list
+2017-05-08 22:22:03 INFO  LogLog4j:102 - Clicking on the Next Step button
+2017-05-08 22:22:05 INFO  LogLog4j:71 - Is Drive Plan - Price page
+2017-05-08 22:22:06 INFO  LogLog4j:115 - true
+2017-05-08 22:22:06 INFO  LogLog4j:51 - Clicking on Previus Step Button
+2017-05-08 22:22:06 INFO  LogLog4j:62 - Waiting for Drive Plan - Choose Train (time 50)
+2017-05-08 22:22:06 INFO  LogLog4j:48 - Before Method for HomePageChooseTrainTest. Data for train choosing: Lod, Ashkelon, A, 1, 12:00
+2017-05-08 22:22:13 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-08 22:22:14 INFO  LogLog4j:126 - ----Test: positiveSearchTrainsOneWayTicket_ChooseTrain
+2017-05-08 22:22:14 INFO  LogLog4j:68 - Choosing Origin Station: Lod
+2017-05-08 22:22:15 INFO  LogLog4j:74 - Choosing Destination Station: Ashkelon
+2017-05-08 22:22:16 INFO  LogLog4j:80 - Filling data field for one way ticket
+2017-05-08 22:22:16 INFO  LogLog4j:90 - Clicking departure or arrival check box for one way ticket: arrival
+2017-05-08 22:22:16 INFO  LogLog4j:98 - Choosing departure time for one way ticket
+2017-05-08 22:22:18 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-08 22:22:26 INFO  LogLog4j:62 - Waiting for Drive Plan - Choose Train (time 50)
+2017-05-08 22:22:27 INFO  LogLog4j:112 -  Receiving list of trains
+2017-05-08 22:22:27 INFO  LogLog4j:121 -  The quantity of trains in the list: 5
+2017-05-08 22:22:27 INFO  LogLog4j:71 - Choosing any train from the list
+2017-05-08 22:22:27 INFO  LogLog4j:127 - Choosing train in the list
+2017-05-08 22:22:27 INFO  LogLog4j:102 - Clicking on the Next Step button
+2017-05-08 22:22:30 INFO  LogLog4j:71 - Is Drive Plan - Price page
+2017-05-08 22:22:38 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-08 22:22:38 INFO  LogLog4j:83 - ----Test: negativeSearchTrainsOneWayTicket01 - origin and destination are empty 
+2017-05-08 22:22:38 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-08 22:22:39 INFO  LogLog4j:40 - Waiting for search trains exception is loaded (time 50)
+2017-05-08 22:22:39 INFO  LogLog4j:54 - Is on search trains exception verifiction: true
+2017-05-08 22:22:39 INFO  LogLog4j:60 - Error summary contains 2: true
+2017-05-08 22:22:39 INFO  LogLog4j:66 - Error N1 in the list contins origin: true
+2017-05-08 22:22:39 INFO  LogLog4j:72 - Error N2 in the list contins destination: true
+2017-05-08 22:22:47 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-08 22:22:47 INFO  LogLog4j:95 - ----Test: negativeSearchTrainsOneWayTicket02 - origin is empty 
+2017-05-08 22:22:47 INFO  LogLog4j:74 - Choosing Destination Station: Netanya
+2017-05-08 22:22:48 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-08 22:22:49 INFO  LogLog4j:40 - Waiting for search trains exception is loaded (time 50)
+2017-05-08 22:22:49 INFO  LogLog4j:54 - Is on search trains exception verifiction: true
+2017-05-08 22:22:49 INFO  LogLog4j:60 - Error summary contains 1: true
+2017-05-08 22:22:49 INFO  LogLog4j:66 - Error N1 in the list contins origin: true
+2017-05-08 22:22:56 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-08 22:22:57 INFO  LogLog4j:106 - ----Test: negativeSearchTrainsOneWayTicket03 - destintion is empty 
+2017-05-08 22:22:57 INFO  LogLog4j:68 - Choosing Origin Station: Ako
+2017-05-08 22:22:58 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-08 22:22:58 INFO  LogLog4j:40 - Waiting for search trains exception is loaded (time 50)
+2017-05-08 22:22:58 INFO  LogLog4j:54 - Is on search trains exception verifiction: true
+2017-05-08 22:22:58 INFO  LogLog4j:60 - Error summary contains 1: true
+2017-05-08 22:22:58 INFO  LogLog4j:66 - Error N1 in the list contins destination: true
+2017-05-08 22:23:05 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-08 22:23:05 INFO  LogLog4j:117 - ----Test: negativeSearchTrainsOneWayTicket02 - origin and destination stations are the same 
+2017-05-08 22:23:05 INFO  LogLog4j:68 - Choosing Origin Station: Sderot
+2017-05-08 22:23:06 INFO  LogLog4j:74 - Choosing Destination Station: Sderot
+2017-05-08 22:23:07 INFO  LogLog4j:80 - Filling data field for one way ticket
+2017-05-08 22:23:07 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-08 22:23:08 INFO  LogLog4j:40 - Waiting for search trains exception is loaded (time 50)
+2017-05-08 22:23:08 INFO  LogLog4j:54 - Is on search trains exception verifiction: true
+2017-05-08 22:23:08 INFO  LogLog4j:60 - Error summary contains 1: true
+2017-05-08 22:23:15 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-08 22:23:15 INFO  LogLog4j:129 - ----Test: negativeSearchTrainsOneWayTicket02 - date of oneWayTicket expired 
+2017-05-08 22:23:15 INFO  LogLog4j:68 - Choosing Origin Station: Haifa-Bat Galim
+2017-05-08 22:23:16 INFO  LogLog4j:74 - Choosing Destination Station: Hertsliya
+2017-05-08 22:23:17 INFO  LogLog4j:80 - Filling data field for one way ticket
+2017-05-08 22:23:17 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-08 22:23:18 INFO  LogLog4j:40 - Waiting for search trains exception is loaded (time 50)
+2017-05-08 22:23:18 INFO  LogLog4j:54 - Is on search trains exception verifiction: true
+2017-05-08 22:23:18 INFO  LogLog4j:60 - Error summary contains 1: true
+2017-05-08 22:23:18 INFO  LogLog4j:66 - Error N1 in the list contins The date selected has passed: true
+2017-05-08 22:23:24 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-08 22:23:24 INFO  LogLog4j:56 - ----Test: positiveApplicationLoadingTest
+2017-05-08 22:23:24 INFO  LogLog4j:117 - Verification: Is on Home Page (originFields, destinationField and SearchButton elements exist)
+2017-05-08 22:23:31 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-08 22:23:32 INFO  LogLog4j:64 - ----Test: positiveSearchTrainsOneWayTicket: AFULA, Ako, A, 0, 20:00
+2017-05-08 22:23:32 INFO  LogLog4j:68 - Choosing Origin Station: AFULA
+2017-05-08 22:23:32 INFO  LogLog4j:74 - Choosing Destination Station: Ako
+2017-05-08 22:23:33 INFO  LogLog4j:80 - Filling data field for one way ticket
+2017-05-08 22:23:34 INFO  LogLog4j:93 - Clicking departure or arrival check box for one way ticket: nothing
+2017-05-08 22:23:34 INFO  LogLog4j:98 - Choosing departure time for one way ticket
+2017-05-08 22:23:35 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-08 22:23:45 INFO  LogLog4j:62 - Waiting for Drive Plan - Choose Train (time 50)
+2017-05-08 22:23:46 INFO  LogLog4j:139 - Is Drive Plan - Choose Train page
+2017-05-08 22:23:47 INFO  LogLog4j:146 - Verification - is one way ticket: true
+2017-05-08 22:23:47 INFO  LogLog4j:159 - Verification - is origin station correct: true
+2017-05-08 22:23:47 INFO  LogLog4j:165 - Verification - is destintion station correct: true
+2017-05-08 22:23:47 INFO  LogLog4j:153 - Verification - is one way date correct: true
+2017-05-08 22:23:54 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-08 22:23:55 INFO  LogLog4j:64 - ----Test: positiveSearchTrainsOneWayTicket: Rehovot (E. Hadar), Netanya, D, 1, 10:00
+2017-05-08 22:23:55 INFO  LogLog4j:68 - Choosing Origin Station: Rehovot (E. Hadar)
+2017-05-08 22:23:56 INFO  LogLog4j:74 - Choosing Destination Station: Netanya
+2017-05-08 22:23:57 INFO  LogLog4j:80 - Filling data field for one way ticket
+2017-05-08 22:23:57 INFO  LogLog4j:93 - Clicking departure or arrival check box for one way ticket: nothing
+2017-05-08 22:23:57 INFO  LogLog4j:98 - Choosing departure time for one way ticket
+2017-05-08 22:23:58 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-08 22:24:09 INFO  LogLog4j:62 - Waiting for Drive Plan - Choose Train (time 50)
+2017-05-08 22:24:09 INFO  LogLog4j:139 - Is Drive Plan - Choose Train page
+2017-05-08 22:24:10 INFO  LogLog4j:146 - Verification - is one way ticket: true
+2017-05-08 22:24:10 INFO  LogLog4j:159 - Verification - is origin station correct: true
+2017-05-08 22:24:10 INFO  LogLog4j:165 - Verification - is destintion station correct: true
+2017-05-08 22:24:10 INFO  LogLog4j:153 - Verification - is one way date correct: true
+2017-05-08 22:24:17 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2017-05-08 22:24:17 INFO  LogLog4j:64 - ----Test: positiveSearchTrainsOneWayTicket: Dimona, Lod, N, 2, 17:00
+2017-05-08 22:24:17 INFO  LogLog4j:68 - Choosing Origin Station: Dimona
+2017-05-08 22:24:18 INFO  LogLog4j:74 - Choosing Destination Station: Lod
+2017-05-08 22:24:19 INFO  LogLog4j:80 - Filling data field for one way ticket
+2017-05-08 22:24:20 INFO  LogLog4j:93 - Clicking departure or arrival check box for one way ticket: nothing
+2017-05-08 22:24:20 INFO  LogLog4j:98 - Choosing departure time for one way ticket
+2017-05-08 22:24:21 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-08 22:24:30 INFO  LogLog4j:62 - Waiting for Drive Plan - Choose Train (time 50)
+2017-05-08 22:24:31 INFO  LogLog4j:139 - Is Drive Plan - Choose Train page
+2017-05-08 22:24:31 INFO  LogLog4j:146 - Verification - is one way ticket: true
+2017-05-08 22:24:32 INFO  LogLog4j:159 - Verification - is origin station correct: true
+2017-05-08 22:24:32 INFO  LogLog4j:165 - Verification - is destintion station correct: true
+2017-05-08 22:24:32 INFO  LogLog4j:153 - Verification - is one way date correct: true

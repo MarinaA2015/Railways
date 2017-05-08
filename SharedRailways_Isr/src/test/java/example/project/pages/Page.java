@@ -5,8 +5,6 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.support.Color;
 import org.openqa.selenium.support.ui.*;
 import org.testng.Assert;
-import java.lang.String;
-
 
 import java.io.IOException;
 import java.nio.charset.Charset;
@@ -14,6 +12,7 @@ import java.nio.charset.CharsetEncoder;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 //import java.util.concurrent.ThreadLocalRandom;
+
 /**
  * Abstract class representation of a Page in the UI. Page object pattern
  */
@@ -99,6 +98,17 @@ public abstract class Page {
     }
   }
 
+  public void waitUntilIsAttributeCustomTime(WebElement element, String attribute, String value, int time) {
+    try {
+      new WebDriverWait(driver, time).until(ExpectedConditions.attributeContains(element, attribute,value));
+    } catch (Exception e) {
+      // Log.info("---------------------------------");
+      // Log.info("element " + element + " can not be found by ExpectedConditions.elementToBeSelected(element)");
+      //  Log.info("---------------------------------");
+      e.printStackTrace();
+    }
+  }
+
   // public void selectValueInDropdown(WebElement dropdown, String value) {
   //   Select select = new Select(dropdown);
   //  select.selectByValue(value);
@@ -151,7 +161,7 @@ public abstract class Page {
   public boolean exists(WebElement element) {
     try {
       return element.isDisplayed();
-    } catch (org.openqa.selenium.NoSuchElementException ignored) {
+    } catch (NoSuchElementException ignored) {
       return false;
     }
   }
@@ -203,7 +213,7 @@ public abstract class Page {
     try {
       driver.findElement(by);
       return true;
-    } catch (org.openqa.selenium.NoSuchElementException e) {
+    } catch (NoSuchElementException e) {
       //  Log.info("----------ALERT-----------------");
       //  Log.info("element " + by + " can not be found by ExpectedConditions.visibilityOf(element)");
       //  Log.info("---------ALERT------------------");

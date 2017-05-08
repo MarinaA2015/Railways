@@ -1,9 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 21.822 sec <<< FAILURE! - in TestSuite
-negativeLoginTest(com.panel.LoginMarinaTest)  Time elapsed: 5.65 sec  <<< FAILURE!
-org.testng.TestNGException: 
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 96.842 sec <<< FAILURE! - in TestSuite
+positiveSearchTrainsOneWayTicket(example.project.HomePageTest)  Time elapsed: 18.88 sec  <<< FAILURE!
+java.lang.AssertionError: Not passed. Some verifications are not passed. expected [true] but found [false]
+	at example.project.HomePageTest.positiveSearchTrainsOneWayTicket(HomePageTest.java:80)
 
-Method public void com.panel.LoginMarinaTest.negativeLoginTest(java.lang.String,java.lang.String) requires a @DataProvider named : invalidLogin in class com.panel.DataProviders
+positiveSearchTrainsOneWayTicket(example.project.HomePageTest)  Time elapsed: 15.249 sec  <<< FAILURE!
+java.lang.AssertionError: Not passed. Some verifications are not passed. expected [true] but found [false]
+	at example.project.HomePageTest.positiveSearchTrainsOneWayTicket(HomePageTest.java:80)
 

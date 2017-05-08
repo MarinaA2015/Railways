@@ -8,15 +8,15 @@
       </run>
     </groups>
     <classes>
-      <class name="com.panel.LoginMarinaTest">
+      <class name="example.project.HomePageTest">
         <methods>
-          <include name="negativeLoginTest"/>
-          <include name="initPageObjects"/>
-          <include name="initWebDriver"/>
           <include name="initTestSuite"/>
           <include name="tearDown"/>
+          <include name="initPageObjects"/>
+          <include name="initWebDriver"/>
+          <include name="positiveSearchTrainsOneWayTicket" invocation-numbers="1 2"/>
         </methods>
-      </class> <!-- com.panel.LoginMarinaTest -->
+      </class> <!-- example.project.HomePageTest -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Tests] -->

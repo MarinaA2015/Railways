@@ -6,13 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Railways_Isr" />
-        <module name="SelTest" />
+        <module name="webdriver-testng-archetype" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Railways_Isr" target="1.7" />
-      <module name="SelTest" target="1.7" />
+      <module name="webdriver-testng-archetype" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

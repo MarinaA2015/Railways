@@ -40,14 +40,28 @@ public class DrivePlanPricePage extends Page {
     @FindBy (id = "tblNext")
     WebElement nextStepButton;
 
+
+
     public DrivePlanPricePage(WebDriver driver) {
         super(driver);
         PageFactory.initElements(driver, this);
     }
 
+    public DrivePlanPricePage clickOnPreviousStepButton(){
+        Log.info("Clicking on Previus Step Button");
+        clickElement(previousStepButton);
+        return this;
+    }
+
+    public DrivePlanPricePage clickOnReturnRadioButton(){
+        Log.info("Clicking on return radio button");
+        clickElement(radioButtonReturn);
+        return this;
+    }
+
     //methods
     public DrivePlanPricePage waitForDrivePlanPriceIsLoadedTime50(){
-        waitUntilIsLoadedCustomTime(previousStepButton, 50);
+        waitUntilIsLoadedCustomTime(previousStepButton, 150);
         waitUntilIsLoadedCustomTime(nextStepButton, 50);
         return this;
     }
@@ -55,6 +69,6 @@ public class DrivePlanPricePage extends Page {
     //verifications
     public boolean isOnDrivePlanPricePage (){
         Log.info("Is Drive Plan - Price page");
-        return (this.exists(radioButtonSingle) && this.exists(radioButtonReturn));
+        return (this.exists(radioButtonSingle) && this.exists(radioButtonReturn) && this.exists(previousStepButton));
     }
 }

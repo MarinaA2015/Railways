@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Railways_Isr.iml" filepath="$PROJECT_DIR$/Railways_Isr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webdriver-testng-archetype.iml" filepath="$PROJECT_DIR$/webdriver-testng-archetype.iml" />
     </modules>
   </component>
 </project>

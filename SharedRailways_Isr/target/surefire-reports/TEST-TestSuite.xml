@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="21.822" tests="3" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="96.842" tests="4" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
     <property name="java.vm.version" value="25.121-b13"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="E:\Marina\Tel Ran\QA\PrjSelenium\SelTest"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\Marina\Tel Ran\QA\PrjSelenium\SharedRailways\SharedRailways_Isr"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="E:\Marina\Tel Ran\QA\PrjSelenium\SelTest"/>
+    <property name="user.dir" value="E:\Marina\Tel Ran\QA\PrjSelenium\SharedRailways\SharedRailways_Isr"/>
     <property name="java.runtime.version" value="1.8.0_121-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
@@ -62,46 +62,48 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="negativeLoginTest" classname="com.panel.LoginMarinaTest" time="5.65">
-    <failure message="&#10;Method public void com.panel.LoginMarinaTest.negativeLoginTest(java.lang.String,java.lang.String) requires a @DataProvider named : invalidLogin in class com.panel.DataProviders" type="org.testng.TestNGException">org.testng.TestNGException: 
-
-Method public void com.panel.LoginMarinaTest.negativeLoginTest(java.lang.String,java.lang.String) requires a @DataProvider named : invalidLogin in class com.panel.DataProviders
+  <testcase name="positiveApplicationLoadingTest" classname="example.project.HomePageTest" time="0.286"/>
+  <testcase name="positiveSearchTrainsOneWayTicket" classname="example.project.HomePageTest" time="17.987"/>
+  <testcase name="positiveSearchTrainsOneWayTicket" classname="example.project.HomePageTest" time="18.88">
+    <failure message="Not passed. Some verifications are not passed. expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Not passed. Some verifications are not passed. expected [true] but found [false]
+	at example.project.HomePageTest.positiveSearchTrainsOneWayTicket(HomePageTest.java:80)
 </failure>
-    <system-out><![CDATA[...
-... TestNG 6.11 by C?dric Beust (cedric@beust.com)
-...
-
+    <system-out><![CDATA[2017-05-03 22:29:04 INFO  LogLog4j:110 - Waiting for home page (time 50)
+2
+2017-05-03 22:29:05 INFO  LogLog4j:70 - ----Test: positiveSearchTrainsOneWayTicket: Rehovot (E. Hadar), Netanya, D, 1, 10:00
+2017-05-03 22:29:05 INFO  LogLog4j:68 - Choosing Origin Station: Rehovot (E. Hadar)
+2017-05-03 22:29:05 INFO  LogLog4j:74 - Choosing Destination Station: Netanya
+2017-05-03 22:29:06 INFO  LogLog4j:80 - Filling data field for one way ticket
+2017-05-03 22:29:07 INFO  LogLog4j:93 - Clicking departure or arrival check box for one way ticket: nothing
+2017-05-03 22:29:07 INFO  LogLog4j:98 - Choosing departure time for one way ticket
+2017-05-03 22:29:07 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-03 22:29:21 INFO  LogLog4j:39 - Waiting for Drive Plan - Choose Train (time 50)
+2017-05-03 22:29:22 INFO  LogLog4j:46 - Is Drive Plan - Choose Train page
+2017-05-03 22:29:23 INFO  LogLog4j:51 - Verification - is one way ticket: true
+2017-05-03 22:29:23 INFO  LogLog4j:64 - Verification - is origin station correct: true
+2017-05-03 22:29:23 INFO  LogLog4j:70 - Verification - is destintion station correct: true
+2017-05-03 22:29:24 INFO  LogLog4j:58 - Verification - is one way date correct: false
 ]]></system-out>
-    <system-err><![CDATA[[Utils] [ERROR] [Error] org.testng.TestNGException: 
-Method public void com.panel.LoginMarinaTest.negativeLoginTest(java.lang.String,java.lang.String) requires a @DataProvider named : invalidLogin in class com.panel.DataProviders
-	at org.testng.internal.Parameters.findDataProvider(Parameters.java:336)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:498)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-
-]]></system-err>
   </testcase>
-  <testcase name="positiveAdminLoginTest" classname="com.panel.LoginMarinaTest" time="6.961"/>
-  <testcase name="positiveCompaniesPageLoading" classname="com.panel.CompaniesMarinaTest" time="0.252"/>
+  <testcase name="positiveSearchTrainsOneWayTicket" classname="example.project.HomePageTest" time="15.249">
+    <failure message="Not passed. Some verifications are not passed. expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Not passed. Some verifications are not passed. expected [true] but found [false]
+	at example.project.HomePageTest.positiveSearchTrainsOneWayTicket(HomePageTest.java:80)
+</failure>
+    <system-out><![CDATA[2017-05-03 22:29:30 INFO  LogLog4j:110 - Waiting for home page (time 50)
+3
+2017-05-03 22:29:31 INFO  LogLog4j:70 - ----Test: positiveSearchTrainsOneWayTicket: Dimona, Lod, N, 2, 17:00
+2017-05-03 22:29:31 INFO  LogLog4j:68 - Choosing Origin Station: Dimona
+2017-05-03 22:29:32 INFO  LogLog4j:74 - Choosing Destination Station: Lod
+2017-05-03 22:29:32 INFO  LogLog4j:80 - Filling data field for one way ticket
+2017-05-03 22:29:33 INFO  LogLog4j:93 - Clicking departure or arrival check box for one way ticket: nothing
+2017-05-03 22:29:33 INFO  LogLog4j:98 - Choosing departure time for one way ticket
+2017-05-03 22:29:33 INFO  LogLog4j:104 - Clicking on Search button
+2017-05-03 22:29:44 INFO  LogLog4j:39 - Waiting for Drive Plan - Choose Train (time 50)
+2017-05-03 22:29:44 INFO  LogLog4j:46 - Is Drive Plan - Choose Train page
+2017-05-03 22:29:45 INFO  LogLog4j:51 - Verification - is one way ticket: true
+2017-05-03 22:29:45 INFO  LogLog4j:64 - Verification - is origin station correct: true
+2017-05-03 22:29:46 INFO  LogLog4j:70 - Verification - is destintion station correct: true
+2017-05-03 22:29:46 INFO  LogLog4j:58 - Verification - is one way date correct: false
+]]></system-out>
+  </testcase>
 </testsuite>
