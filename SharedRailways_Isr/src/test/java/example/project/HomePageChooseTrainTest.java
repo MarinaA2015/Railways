@@ -62,7 +62,7 @@ public class HomePageChooseTrainTest extends TestNgTestBase {
         driver = WebDriverPool.DEFAULT.getDriver(gridHubUrl, capabilities);
     }
 
-    @Test(groups = {"smoke", "regression"})
+    /*@Test(groups = {"smoke", "regression"})
     public void negativeSearchTrainsOneWayTicket_ChooseTrain01() {
         //System.out.println(plusDays+1);
 
@@ -83,7 +83,8 @@ public class HomePageChooseTrainTest extends TestNgTestBase {
                 &&searchTrainsExceptionPage.isErrorSummaryCorrect(1),"Not passed. Some verificatios are not passed.");
 
 
-    }
+    }*/
+
     //Choosing and clicking on each train in the list and verification that the system displays next screen correctly
     @Test(groups = "regression")
     public void positiveSearchTrainsOneWayTicket_ChooseEachTrain() {
